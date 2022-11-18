@@ -38,6 +38,11 @@ acc login
 acc session
 ```
 
+## kotlin のインストール
+
+以下（atCoderと同一バージョン）からダウンロード、bin にパス通す
+https://github.com/JetBrains/kotlin/releases/tag/v1.3.71
+
 ## 使い方
 
 問題取得
@@ -51,6 +56,10 @@ cd ${probrem_id}/a
 テンプレートコピー（事前にエイリアス設定必要、任意の名称で）
 ```
 kcp
+```
+コード開く（事前にエイリアス設定必要、任意の名称で）
+```
+kopen
 ```
 カレントフォルダでテスト実行（事前にエイリアス設定必要、任意の名称で）
 ```
