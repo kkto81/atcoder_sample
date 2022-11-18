@@ -4,9 +4,7 @@
 
 ## atCoder のアカウント作成
 
-    こちらから
-
-    https://atcoder.jp/?lang=ja
+<https://atcoder.jp/?lang=ja>
 
 ## online-judge-tools のインストール
 
