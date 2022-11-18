@@ -12,7 +12,7 @@
 
 インストール
 ```
-pip install online-judge-tools
+pip3 install online-judge-tools
 ```
 ログイン
 ```
