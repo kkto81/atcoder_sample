@@ -10,54 +10,57 @@
 
 ## online-judge-tools のインストール
 
-    インストール
+インストール
 ```
     pip install online-judge-tools
-
 ```
-    ログイン
+ログイン
 ```
     oj login -u ${USERNAME} -p ${PASSWORD} "https://atcoder.jp/"
 ```
-    確認
+確認
 ```
     oj login --check "https://atcoder.jp/"
 ```
 
 ## atcoder-cli のインストール
 
-    インストール
+インストール
 ```
     npm install -g atcoder-cli
 ```
-    ログイン
+ログイン
 ```
     acc login
 ```
-    確認
+確認
 ```
     acc session
 ```
 
 ## 使い方
 
-    問題取得
+問題取得
 ```
     acc new ${probrem_id}
 ```
-    フォルダに移動
+フォルダに移動
 ```
     cd ${probrem_id}/a
 ```
-    テンプレートコピー（事前にエイリアス設定必要、任意の名称で）
+テンプレートコピー（事前にエイリアス設定必要、任意の名称で）
 ```
     kcp
 ```
-    カレントフォルダでテスト実行
+カレントフォルダでテスト実行（事前にエイリアス設定必要、任意の名称で）
 ```
     ktest
 ```
-    カレントフォルダで提出
+カレントフォルダで提出（事前にエイリアス設定必要、任意の名称で）
 ```
     ksub
+```
+次の問題取得
+```
+    cd .. && acc add b（問題を表すアルファベット）
 ```
