@@ -1,0 +1,13 @@
+~/.zshrc などに設定する際のサンプルです
+
+// java
+alias jtest='javac Main.java && oj t -c "java Main" -d ./tests/'
+alias jsub='acc submit Main.java -- -l 4005'
+alias jcp='cp ../../template_java/MainTemplate.java Main.java'
+alias jopen='code Main.java'
+
+// kotlin
+alias ktest='kotlinc Main.kt && oj t -c "kotlin MainKt" -d ./tests/'
+alias ksub='acc submit Main.kt -- -l 4032'
+alias kcp='cp ../../template_kotlin/MainTemplate.kt Main.kt'
+alias kopen='code Main.kt'
