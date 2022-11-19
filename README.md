@@ -43,11 +43,11 @@ https://github.com/JetBrains/kotlin/releases/tag/v1.3.71
 
 ## 使い方
 
-問題取得
+問題取得 (ex: acc new abc256)
 ```
 acc new ${probrem_id}
 ```
-フォルダに移動
+フォルダに移動 (ex: cd abc256/a)
 ```
 cd ${probrem_id}/a
 ```
